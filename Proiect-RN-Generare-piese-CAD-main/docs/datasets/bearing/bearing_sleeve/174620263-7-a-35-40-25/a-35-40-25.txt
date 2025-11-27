@@ -1,0 +1,11 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-24012006-105447";"";
+"REFERENCE";"A-35-40-25";"";
+"TraceParts.PartTitle";"Bearing type A, cylindrical";"";
+"TraceParts.InstanceId";"10-24012006-1054479O6HT0J5WL4GKJ48GER1SMIHC";"";
+"TraceParts.PartLanguage";"en";"";
+"SUPPLIER";"AMES Sintered Metallic Components";"";
+"DESIGN";"SELFOIL Bearing A-35-40-25";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"MATERIAL";"Bronze";"";
+"TraceParts.PartVersion";"1.2.9";"";

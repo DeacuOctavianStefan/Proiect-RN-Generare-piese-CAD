@@ -1,0 +1,11 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-24012006-105447";"";
+"REFERENCE";"A-100-120-80";"";
+"TraceParts.PartTitle";"Bearing type A, cylindrical";"";
+"TraceParts.InstanceId";"10-24012006-1054475HE1K5O67KWQ8W4N3YPXARHOT";"";
+"TraceParts.PartLanguage";"en";"";
+"SUPPLIER";"AMES Sintered Metallic Components";"";
+"DESIGN";"SELFOIL Bearing A-100-120-80";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"MATERIAL";"Bronze";"";
+"TraceParts.PartVersion";"1.2.9";"";

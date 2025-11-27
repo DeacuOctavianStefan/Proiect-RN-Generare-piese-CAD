@@ -1,0 +1,11 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-24012006-105447";"";
+"REFERENCE";"A-18-24-12";"";
+"TraceParts.PartTitle";"Bearing type A, cylindrical";"";
+"TraceParts.InstanceId";"10-24012006-1054476661BIQ86VEK814JV8XQQN0RG";"";
+"TraceParts.PartLanguage";"en";"";
+"SUPPLIER";"AMES Sintered Metallic Components";"";
+"DESIGN";"SELFOIL Bearing A-18-24-12";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"MATERIAL";"Bronze";"";
+"TraceParts.PartVersion";"1.2.9";"";
