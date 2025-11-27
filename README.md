@@ -57,12 +57,14 @@ project-name/
 
 | **Caracteristică** |  **Tip**   | **Unitate** | **Descriere** | **Domeniu valori** |
 |--------------------|------------|-------------|---------------|--------------------|
-|       arbore       | categorial |      -      |      ...      |         -          |
-|       flansa       | categorial |      -      |      ...      |         -          |
-|    roata_angranaj  | categorial |      -      |      ...      |         -          |
-|       rulment      | categorial |      -      |      ...      |         -          |
-|       cuplaj       | categorial |      -      |      ...      |         -          |
+|       shaft        | categorial |      -      |      ...      |         -          |
+|      bearing       | categorial |      -      |      ...      |         -          |
+|     gearwheel      | categorial |      -      |      ...      |         -          |
+|   bearing_flanged  | categorial |      -      |      ...      |         -          |
+|   bearing_sleeve   | categorial |      -      |      ...      |         -          |
+|      coupling      | categorial |      -      |      ...      |         -          |
 |    fisier_sldprt   |  temporal  |      -      |      ...      |         -          |
+|       shaft        | categorial |      -      |      ...      |         -          |
 
 **Fișier recomandat:**  `data/README.md`
 
@@ -100,8 +102,19 @@ project-name/
   * Feature A: imputare cu mediană
   * Feature B: eliminare (30% valori lipsă)
 * **Tratarea outlierilor:** IQR / limitare percentile
+* **Conversia pieselor fără „feature tree” → etichetate separat**
 
 ### 4.2 Transformarea caracteristicilor
+
+| **Caracteristică** |   **Tip**   | **Procesare** |
+|--------------------|-------------|---------------|
+|    bounding_box    |   numeric   |    min-max    |
+|    face_number     |   numeric   | standardizare |
+|    edge_number     |   numeric   |  log-scaling  |
+|    feature_number  |   numeric   |  normalizare  |
+|   categorie_piesa  |   numeric   |  normalizare  |
+
+
 
 * **Normalizare:** Min–Max / Standardizare
 * **Encoding pentru variabile categoriale**
@@ -113,6 +126,7 @@ project-name/
 * 70–80% – train
 * 10–15% – validation
 * 10–15% – test
+* Stratificare dupa clasa piesei
 
 **Principii respectate:**
 * Stratificare pentru clasificare
