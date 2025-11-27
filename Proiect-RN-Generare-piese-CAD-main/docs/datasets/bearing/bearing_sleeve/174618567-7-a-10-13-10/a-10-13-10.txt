@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"A-10-13-10";"";
+"MATERIAL";"Bronze";"";
+"SUPPLIER";"AMES Sintered Metallic Components";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-24012006-105447";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"SELFOIL Bearing A-10-13-10";"";
+"TraceParts.InstanceId";"10-24012006-105447BV9GXXKBS5VFO090B2ZLJL55L";"";
+"TraceParts.PartTitle";"Bearing type A, cylindrical";"";
+"TraceParts.PartVersion";"1.2.9";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"AMES:10-24012006-105447";"";
