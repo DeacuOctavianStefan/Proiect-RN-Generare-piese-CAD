@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-06122019-064321";"";
+"REFERENCE";"DIN 28117-AM-F-32-PN 40";"";
+"STANDARD";"DIN 28117";"";
+"TraceParts.PartTitle";"Block flanges for process apparatus - DIN 28117 - Implementation A without weld attachment";"";
+"TraceParts.InstanceId";"33-06122019-064321EQ8SVHFC7AKZZUJLZ8ZY6QOF1";"";
+"TraceParts.PartStandardAcronym";"DIN";"";
+"SUPPLIER";"TraceParts";"";
+"DESIGN";"Block flange DIN 28117-AM-F-32-PN 40";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.1.5";"";
