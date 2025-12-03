@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-20112003-070817";"";
+"REFERENCE";"ADP442C";"";
+"STANDARD";"NAAMS ADP C";"";
+"TraceParts.PartTitle";"40 mm through shafts, NAAMS ADP C";"";
+"TraceParts.InstanceId";"10-20112003-0708174GS4V82QI5KIHEFKXVM67IPZ7";"";
+"TraceParts.PartStandardAcronym";"NAAMS";"";
+"MATERIAL";"T.G.P. & C. 1045-1050";"";
+"DESIGN";"40 mm through shafts ADP442C";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.2.5";"";
