@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\Proiect-RN-Generare-piese-CAD-main\src\data_acquisition\generate_sldprt_from_json_dim_v3_6_1.py", line 808, in <module>
+    main()
+    ~~~~^^
+  File "D:\Proiect-RN-Generare-piese-CAD-main\src\data_acquisition\generate_sldprt_from_json_dim_v3_6_1.py", line 765, in main
+    model, open_err, open_warn = open_part(sw_app, template_path)
+                                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Proiect-RN-Generare-piese-CAD-main\src\data_acquisition\generate_sldprt_from_json_dim_v3_6_1.py", line 280, in open_part
+    raise RuntimeError(f"OpenDoc6 failed after retries. Last error: {last_exc}")
+RuntimeError: OpenDoc6 failed after retries. Last error: (-2147023174, 'The RPC server is unavailable.', None, None)

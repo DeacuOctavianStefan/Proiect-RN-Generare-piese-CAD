@@ -1,0 +1,47 @@
+ALL: -Python 3.10+
+
+generate_valid_sweep.py
+
+-stdlib
+
+generate_prompt_variants.py
+
+-stdlib
+
+build_processed_all_splits.py
+
+-stdlib
+
+build_processed_from_manifests.py
+
+-stdlib
+
+generate_sldprt_from_json_dim_v3_6_1.py
+
+-OS
+-SolidWorks 64-bit
+-pywin32
+
+validate_records.py
+
+-OS
+-SolidWorks 64-bit
+-pywin32
+
+train_llm_json_with_metrics.py
+
+-torch
+-transformers
+-datasets
+-accelerate
+-peft
+
+infer_json.py
+
+-torch
+-transformers
+
+eval_accuracy.py
+
+-torch
+-transformers

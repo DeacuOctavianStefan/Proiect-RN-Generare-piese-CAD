@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+.venv*/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training / output artifacts (adjust if you want to keep some)
+runs/
+out/
+
+# Data (optional - comment out if you DO want to version datasets)
+# data/
