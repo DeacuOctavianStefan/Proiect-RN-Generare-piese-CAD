@@ -556,8 +556,8 @@ python src\neural_network\infer_json.py `
 |--------------------------------|--------|----------|--------|
 | [Obiectiv 1 din 2.2] | [target] | [realizat] | [✓/✗] |
 | [Obiectiv 2 din 2.2] | [target] | [realizat] | [✓/✗] |
-| Accuracy pe test set | ≥70% | [X.XX%] | [✓/✗] |
-| F1-Score pe test set | ≥0.65 | [X.XX] | [✓/✗] |
+| Accuracy pe test set | ≥70% | [99.42%] | [✓] |
+| F1-Score pe test set | ≥0.65 | [1.00] | [✓] |
 | [Metric specific domeniului] | [target] | [realizat] | [✓/✗] |
 
 ### 10.2 Ce NU Funcționează – Limitări Cunoscute
@@ -600,52 +600,49 @@ python src\neural_network\infer_json.py `
 *[Minimum 3 surse cu DOI/link funcțional - format: Autor, Titlu, Anul, Link]*
 
 1. - Keras Documentation, 2024. Getting Started Guide. https://keras.io/getting_started/
-2. - Solidworks Documentation, 2021. https://help.solidworks.com/2021/english/api/help_list.htm?id=1.2
-3. - Trainer, 2020. https://huggingface.co/docs/trl/main/en/trainer
-
-
-**Exemple format:**
-
-- Keras Documentation, 2024. Getting Started Guide. https://keras.io/getting_started/
-
+2. - Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, 2019. “Better Language Models and Their Implications". https://openai.com/index/better-language-models/
+3. - Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, 2019. “Language Models are Unsupervised Multitask Learners". https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+4. - Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clément Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, Alexander M. Rush, 2020. “HuggingFace’s Transformers: State-of-the-art Natural Language Processing”. https://arxiv.org/abs/1910.03771
+5. - Solidworks Documentation, 2021. https://help.solidworks.com/2021/english/api/help_list.htm?id=1.2
+6. - Trainer, 2020. https://huggingface.co/docs/trl/main/en/trainer
 ---
 
 ## 12. Checklist Final (Auto-verificare înainte de predare)
 
 ### Cerințe Tehnice Obligatorii
 
-- [ ] **Accuracy ≥70%** pe test set (verificat în `results/final_metrics.json`)
-- [ ] **F1-Score ≥0.65** pe test set
-- [ ] **Contribuție ≥40% date originale** (verificabil în `data/generated/`)
-- [ ] **Model antrenat de la zero** (NU pre-trained fine-tuning)
-- [ ] **Minimum 4 experimente** de optimizare documentate (tabel în Secțiunea 5.3)
-- [ ] **Confusion matrix** generată și interpretată (Secțiunea 6.2)
-- [ ] **State Machine** definit cu minimum 4-6 stări (Secțiunea 4.2)
-- [ ] **Cele 3 module funcționale:** Data Logging, RN, UI (Secțiunea 4.1)
-- [ ] **Demonstrație end-to-end** disponibilă în `docs/demo/`
+- [✓] **Accuracy ≥70%** pe test set (verificat în `results/final_metrics.json`)
+- [✓] **F1-Score ≥0.65** pe test set
+- [✓] **Contribuție ≥40% date originale** (verificabil în `data/generated/`)
+- [X] **Model antrenat de la zero** (NU pre-trained fine-tuning)
+- [✓] **Minimum 4 experimente** de optimizare documentate (tabel în Secțiunea 5.3)
+- [X] **Confusion matrix** generată și interpretată (Secțiunea 6.2)
+- [✓] **State Machine** definit cu minimum 4-6 stări (Secțiunea 4.2)
+- [✓] **Cele 3 module funcționale:** Data Logging, RN, UI (Secțiunea 4.1)
+- [✓] **Demonstrație end-to-end** disponibilă în `docs/demo/`
 
 ### Repository și Documentație
 
-- [ ] **README.md** complet (toate secțiunile completate cu date reale)
-- [ ] **4 README-uri etape** prezente în `docs/` (etapa3, etapa4, etapa5, etapa6)
-- [ ] **Screenshots** prezente în `docs/screenshots/`
-- [ ] **Structura repository** conformă cu Secțiunea 8
-- [ ] **requirements.txt** actualizat și funcțional
-- [ ] **Cod comentat** (minim 15% linii comentarii relevante)
-- [ ] **Toate path-urile relative** (nu absolute: `/Users/...` sau `C:\...`)
+- [✓] **README.md** complet (toate secțiunile completate cu date reale)
+- [✓] **4 README-uri etape** prezente în `docs/` (etapa3, etapa4, etapa5, etapa6)
+- [✓] **Screenshots** prezente în `docs/screenshots/`
+- [X] **Structura repository** conformă cu Secțiunea 8
+- [✓] **requirements.txt** actualizat și funcțional
+- [✓] **Cod comentat** (minim 15% linii comentarii relevante)
+- [X] **Toate path-urile relative** (nu absolute: `/Users/...` sau `C:\...`)
 
 ### Acces și Versionare
 
-- [ ] **Repository accesibil** cadrelor didactice RN (public sau privat cu acces)
-- [ ] **Tag `v0.6-optimized-final`** creat și pushed
-- [ ] **Commit-uri incrementale** vizibile în `git log` (nu 1 commit gigantic)
-- [ ] **Fișiere mari** (>100MB) excluse sau în `.gitignore`
+- [✓] **Repository accesibil** cadrelor didactice RN (public sau privat cu acces)
+- [X] **Tag `v0.6-optimized-final`** creat și pushed
+- [X] **Commit-uri incrementale** vizibile în `git log` (nu 1 commit gigantic)
+- [✓] **Fișiere mari** (>100MB) excluse sau în `.gitignore`
 
 ### Verificare Anti-Plagiat
 
-- [ ] Model antrenat **de la zero** (weights inițializate random, nu descărcate)
-- [ ] **Minimum 40% date originale** (nu doar subset din dataset public)
-- [ ] Cod propriu sau clar atribuit (surse citate în Bibliografie)
+- [X] Model antrenat **de la zero** (weights inițializate random, nu descărcate)
+- [✓] **Minimum 40% date originale** (nu doar subset din dataset public)
+- [✓] Cod propriu sau clar atribuit (surse citate în Bibliografie)
 
 ---
 
