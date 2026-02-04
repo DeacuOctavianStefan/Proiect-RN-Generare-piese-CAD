@@ -1,0 +1,1 @@
+{"id": "inferred_0001", "prompt": "Generate a shaft with outer diameter 50mm, length 400mm, a bore of 10mm and 2mm chamfers at 30 deg", "family": "shaft", "template_inputs": {"BORE_D": 10.0, "CHAMFER_ANG": 30.0, "CHAMFER_L": 2.0, "SHAFT_L": 400.0, "SHAFT_OD": 50.0}}
