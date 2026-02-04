@@ -1,9 +1,0 @@
-﻿"Symbol";"Value";"Unit";
-"TraceParts.PartNumber";"32-19042007-063109";"";
-"REFERENCE";"79 44 520";"";
-"TraceParts.PartTitle";"Gearwheels, modul 2-5, hardened, Quality 5e, serie 79, with spline profile according DIN 5480";"";
-"TraceParts.InstanceId";"32-19042007-063109ENLQM49HVPUYD987RNQ5Q07JN";"";
-"SUPPLIER";"ATLANTA";"";
-"DESIGN";"Gearwheels, modul 2-5, hardened, Quality 5e, serie 79, with spline profile according DIN 5480";"";
-"TraceParts.PartVersion";"1.4.8";"";
-"TraceParts.PartLanguage";"en";"";
