@@ -6,7 +6,7 @@
 | **Grupa / Specializare** | 633AB \ Informatica Industriala |
 | **Disciplina** | Rețele Neuronale |
 | **Instituție** | POLITEHNICA București – FIIR |
-| **Link Repository GitHub** | [URL complet - ex: https://github.com/username/proiect-rn] |
+| **Link Repository GitHub** | https://github.com/DeacuOctavianStefan/Proiect-RN-Generare-piese-CAD.git |
 | **Acces Repository** | [Public / Privat cu acces cadre didactice RN] |
 | **Stack Tehnologic** | Python |
 | **Domeniul Industrial de Interes (DII)** | Modelare CAD |
